@@ -1,0 +1,206 @@
+.project-cards {
+
+    display: flex;
+    flex-direction: column;
+    padding: 9rem 7.5rem 9rem 12rem;
+    background-color: #F8F8FA;
+    gap: 4.8rem;
+
+    .section-heading {
+        
+        display:flex;
+
+        h2 {
+
+            display:flex;
+            margin: 0;
+            padding: 0;
+            color: #192023;
+            font-size: 6rem;
+            font-weight: 570;
+            line-height: 6rem;
+            letter-spacing: -0.24rem;
+
+        }
+
+
+    }
+
+    .card-section {
+
+        display: flex;
+        gap: 5rem;
+        background-color: #F8F8FA;
+
+        .card-one {
+          
+            display: flex;
+            flex-direction:column;
+            border-radius: 1.2rem;
+            border: 0.1125rem solid #FFF;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 2.4rem;
+
+            .card-btn {
+
+                display: inline-flex;
+                padding: 0.9rem 1.5rem 0.9rem 1.2rem;
+                align-items: center;
+                gap: 0.75rem;
+                border-radius: 7.5rem;
+                background: rgba(23, 125, 39, 0.20);
+                border-style: none;
+
+                .btn-div {
+                    
+                    width: 0.9rem;
+                    height: 0.9rem;
+                    border-radius: 0.45rem;
+                    background: #177D27;
+                }
+
+                .btn-text {
+
+                    color: #177D27;
+                    font-size: 1.2rem;
+                    font-style: normal;
+                    font-weight: 430;
+                    line-height: 1.5rem;
+                }
+
+            }
+
+
+
+            .card-text {
+                
+                display:flex;
+                width: 22.8rem;
+                color: #192023;
+                font-size: 3rem;
+                font-style: normal;
+                font-weight: 570;
+                line-height: 3.3rem;
+                letter-spacing: -0.1rem;
+                padding-top: 1.5rem;
+                padding-bottom: 8.25rem;
+            }
+
+            .tag-content {
+
+                display: inline-flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0.75rem;
+
+                .text {
+
+                    color: #192023;
+                    font-size: 1.2rem;
+                    font-style: normal;
+                    font-weight: 430;
+                    line-height: 1.5rem;
+                    opacity: 0.7;
+
+                }
+
+                .btn-group {
+
+                    display: flex;
+                    width: 24rem;
+                    align-items: flex-start;
+                    align-content: flex-start;
+                    gap: 0.6rem;
+                    flex-wrap: wrap;
+
+                    button {
+
+                        display: flex;
+                        padding: 0.6rem 0.9rem;
+                        align-items: flex-start;
+                        gap: 0.75rem;
+                        border-radius: 0.3rem;
+                        background: #DFE1EA;
+                        border-style: none;
+                        color: #575A73;
+                        font-size: 1.2rem;
+                        font-style: normal;
+                        font-weight: 430;
+                        line-height: 1.5rem;
+
+                    }
+                }
+            }
+
+
+        }
+
+        .card-two {
+
+            @extend .card-one;
+            background: transparent;
+            border-style: none;
+
+            .card-btn {
+
+                background: rgba(214, 220, 231, 0.20);
+
+                .btn-text {
+
+                    color: #3F6BBC;
+
+                }
+            }
+
+            .card-text {
+
+                padding-bottom: 5rem;
+            }
+
+
+        }
+
+        .card-three {
+
+            @extend .card-one;
+            background: transparent;
+            border-style: none;
+
+            .card-btn {
+
+
+                background: rgba(106, 51, 176, 0.20);
+
+                .btn-div {
+
+                    background: #6A33B0;
+                }
+
+                .btn-text {
+
+                    color: #6A33B0;
+
+                }
+            }
+
+            .card-text {
+
+                padding-bottom: 5rem;
+            }
+
+        }
+
+        .card-four {
+
+            @extend .card-one;
+            background-color: transparent;
+            border-style: none;
+
+            .card-text {
+
+                padding-bottom: 5rem;
+            }
+        }
+
+    }
+}

@@ -1,0 +1,76 @@
+.testimonial-page {
+
+    display: flex;
+    padding: 12rem 9rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8F8FA;
+
+
+    .image-lockup {
+
+        display: flex;
+
+
+    }
+
+
+    .content {
+
+        display: flex;
+        height: 27rem;
+        padding: 2.4rem 14rem 2.4rem 6rem;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        
+
+
+        .company-logo {
+
+            display: flex;
+            width: 11.4375rem;
+            height: 3rem;
+            padding: 0.125rem 0.0081rem 0.125rem 0rem;
+            justify-content: center;
+            align-items: center;
+            gap: 0.8428rem;
+
+
+
+        }
+
+        .content-area {
+
+            display: flex;
+            position: relative;
+
+            .content-text {
+
+                display: flex;
+                width: 62rem;
+                align-items: stretch;
+                color: #192023;
+                font-size: 4.8rem;
+                font-style: normal;
+                font-weight: 570;
+                line-height: 5.28rem;
+                letter-spacing: -0.192rem;
+
+
+            }
+
+            .vector {
+
+                position: absolute;
+                right: -5rem;
+                top: -2rem;
+
+            }
+
+
+        }
+
+    }
+
+}

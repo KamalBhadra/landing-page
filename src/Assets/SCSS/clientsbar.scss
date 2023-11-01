@@ -1,0 +1,86 @@
+.client-bar {
+
+    display: flex;
+    background: #FFF;
+    padding: 4.5rem 0rem 4.5rem 9rem;
+
+
+    .clients {
+
+        display: flex;
+        flex-direction: row;
+        mix-blend-mode: luminosity;
+        align-items: center;
+        padding-left: 0rem;
+
+
+        #text {
+
+            display: flex;
+            width: 13rem;
+            color: #192023;
+            font-size: 1.35rem;
+            font-style: normal;
+            font-weight: 430;
+            line-height: 1.62rem;
+
+
+        }
+
+        .client-logos {
+
+            display: flex;
+            gap: 9.6rem;
+            padding-left: 9rem;
+            padding-right:8rem;
+            align-items: center;
+
+            #good-glam-img {
+
+                height: 4.8rem;
+                width: 8.55rem;
+                
+            }
+
+            #tata-img {
+
+                width: 12.37rem;
+                height: 3.45rem;
+                
+            }
+
+            #newsreel-img {
+
+                width: 16.575rem;
+                height: 4.05rem;
+                
+            }
+
+            #espn-img {
+
+                width: 12.225rem;
+                height: 3.15rem;
+                
+
+            }
+
+            #somaiya-img {
+
+                width: 6.67rem;
+                height: 4.95rem;
+                
+
+            }
+
+            #hotstar-img {
+
+                width: 6.75rem;
+                height: 5.25rem;
+                
+
+            }
+
+        }
+
+    }
+}

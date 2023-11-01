@@ -1,0 +1,365 @@
+.cost-calculator {
+
+    display: flex;
+    padding: 2.4rem 9rem;
+    padding-left:18rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 4.8rem;
+    align-self: stretch;
+
+    .box-first {
+
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        gap: 8.625rem;
+
+        .text-first {
+
+            width: 614.25px;
+            flex-shrink: 0;
+            color: #192023;
+            font-size: 6.0rem;
+            font-style: normal;
+            font-weight: 570;
+            line-height: 6rem;
+            letter-spacing: -0.24rem;
+
+        }
+
+        .text-second {
+
+            width: 31.425rem;
+            flex-shrink: 0;
+            color: #192023;
+            font-size: 1.2rem;
+            font-style: normal;
+            font-weight: 430;
+            line-height: 1.5rem;
+            opacity: 0.7;
+
+        }
+
+    }
+
+    .box-second {
+
+        display: flex;
+        align-items: flex-start;
+        gap: 3.525rem;
+
+        .card-first {
+
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 1.8rem;
+
+
+            .card {
+                
+                display: flex;
+                width: 31.5rem;
+                height: 24rem;
+                padding: 2.4rem;
+                justify-content: space-between;
+                align-items: flex-start;
+                border-radius: 1.2rem;
+                border: 0.1125rem solid #FFF;
+                background: rgba(255, 255, 255, 0.95);
+                box-shadow: 1.65rem 1.5rem 4.8rem 0px rgba(30, 48, 111, 0.08);
+                backdrop-filter: blur(4.5rem);
+
+                .content-first {
+
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    align-items: flex-start;
+                    align-self: stretch;
+                    width: 31.5rem;
+
+                    .text {
+
+                        color: #192023;
+                        font-size: 3rem;
+                        font-style: normal;
+                        font-weight: 570;
+                        line-height: 3.3rem;
+                        letter-spacing: -0.12rem;
+
+                    }
+
+                    .content-second {
+
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        gap: 1.5rem;
+
+
+                        .question {
+
+                            display: flex;
+                            flex-direction: column;
+                            align-items: flex-start;
+                            gap: 0.6rem;
+
+                            .question-text {
+
+                                color: #192023;
+                                font-size: 1.35rem;
+                                font-style: normal;
+                                font-weight: 430;
+                                line-height: 1.65rem;
+
+                            }
+
+                            .counter {
+
+                                display: flex;
+                                width: 9rem;
+                                padding: 0.9rem 1.5rem;
+                                justify-content: space-between;
+                                align-items: center;
+                                border-radius: 2.4rem;
+                                border: 0.075rem solid rgba(0, 0, 0, 0.10);
+
+                                .counter-text {
+
+                                    color: #192023;
+                                    font-size: 1.35rem;
+                                    font-style: normal;
+                                    font-weight: 430;
+                                    line-height: 1.5525rem;
+                                    letter-spacing: -0.0135rem;
+                                    opacity: 0.4;
+
+                                }
+                            }
+
+                        }
+
+                    }
+                }
+
+            }
+
+
+        }
+
+        .card-second {
+
+            @extend .card-first;
+
+            .card-four {
+
+
+                display: flex;
+                width: 31.5rem;
+                height: 24rem;
+                padding: 2.4rem;
+                justify-content: space-between;
+                align-items: flex-start;
+                border-radius: 1.2rem;
+                border: 0.1125rem solid #FFF;
+                background: rgba(255, 255, 255, 0.95);
+                box-shadow: 1.65rem 1.5rem 4.8rem 0px rgba(30, 48, 111, 0.08);
+                backdrop-filter: blur(4.5rem);
+
+                .content-first {
+
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    align-items: flex-start;
+                    align-self: stretch;
+                    width: 31.5rem;
+
+                    .text {
+                        display: flex;
+                        width: 31.5rem;
+                        justify-content: space-between;
+                        color: #192023;
+                        font-size: 3rem;
+                        font-style: normal;
+                        font-weight: 570;
+                        line-height: 3.3rem;
+                        letter-spacing: -0.12rem;
+
+                    }
+
+
+
+                    .content-second {
+
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        gap: 1.5rem;
+                        width: 31.5rem;
+
+
+                        .question {
+
+                            display: flex;
+                            width: 31.5rem;
+                            flex-direction: row;
+                            justify-content: space-between;
+                            align-items: center;
+                            gap: 0.6rem;
+
+                            .question-text {
+
+                                color: #192023;
+                                font-size: 1.35rem;
+                                font-style: normal;
+                                font-weight: 430;
+                                line-height: 1.65rem;
+
+                            }
+
+                            .counter {
+
+                                display: flex;
+                                width: 9rem;
+                                padding: 0.9rem 1.5rem;
+                                justify-content: space-between;
+                                align-items: center;
+                                border-radius: 2.4rem;
+                                border: 0.075rem solid rgba(0, 0, 0, 0.10);
+
+                                .counter-text {
+
+                                    color: #192023;
+                                    font-size: 1.35rem;
+                                    font-style: normal;
+                                    font-weight: 430;
+                                    line-height: 1.5525rem;
+                                    letter-spacing: -0.0135rem;
+                                    opacity: 0.4;
+
+
+                                }
+
+                            }
+
+                        }
+                    }
+
+
+                }
+
+
+            }
+
+
+        }
+
+        .card-third {
+
+            display: flex;
+            flex-direction: column;
+            height: 53.4rem;
+            border-radius: 1.2rem;
+            border: 0.1125rem solid #FFF;
+            background: linear-gradient(180deg, #122026 0%, #192023 100%), #192023;
+            box-shadow: 1.65rem 1.5rem 4.8rem 0px rgba(30, 48, 111, 0.08);
+            backdrop-filter: blur(4.5);
+            padding: 3rem 3.7rem;
+
+
+            .card-nav {
+
+                display: inline-flex;
+                padding: 0.3rem;
+                align-items: flex-start;
+                gap: 0.3rem;
+                border-radius: 5.325rem;
+                border-style: none;
+                background: rgba(248, 248, 250, 0.10);
+                box-shadow: 0.15rem 0.15rem 0.45rem 0px rgba(0, 0, 0, 0.08) inset;
+                backdrop-filter: blur(4.5rem);
+
+                .nav-button-first {
+
+                    display: flex;
+                    padding: 0.9rem 1.5rem;
+                    align-items: flex-start;
+                    gap: 0.75rem;
+                    border-radius: 3.225rem;
+                    background: #FFF;
+                    box-shadow: 0.15rem 0.15rem 0.6rem 0px rgba(0, 0, 0, 0.12);
+                    border-radius: 3.225rem;
+                    background: #FFF;
+                    box-shadow: 0.15rem 0.15rem 0.6rem 0px rgba(0, 0, 0, 0.12);
+                    color: #192023;
+                    text-align: center;
+                    font-size: 1.2rem;
+                    font-style: normal;
+                    font-weight: 570;
+                    line-height: 1.44rem;
+                    letter-spacing: -0.024rem;
+                    border-style: none;
+                }
+
+                .nav-button-rest {
+
+                    @extend .nav-button-first;
+                    color: #FFF;
+                    background: transparent;
+                    font-weight: 430;
+                    border-style: no;
+                }
+
+            }
+
+            .card-cost {
+
+                display: inline-flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0.9rem;
+                padding-top: 3.3rem;
+
+                .text-first {
+
+                    color: #FFF;
+                    font-size: 3.6rem;
+                    font-style: normal;
+                    font-weight: 570;
+                    line-height: 3.96rem;
+                    letter-spacing: -0.144rem;
+                }
+
+                .text-second {
+
+                    color: #FFF;
+                    font-size: 1.35rem;
+                    font-style: normal;
+                    font-weight: 430;
+                    line-height: 120%;
+                    opacity: 0.7;
+
+
+                }
+
+            }
+
+            .cost-line {
+
+                padding-top: 9rem;
+
+                img {
+
+                    width: 31rem;
+                }
+            }
+        }
+
+    }
+
+
+}

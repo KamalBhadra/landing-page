@@ -1,0 +1,44 @@
+.companies-bar {
+
+    display: flex;
+    padding: 4.5rem 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.4rem;
+    background: linear-gradient(180deg, #122026 0%, #192023 100%), #192023;
+
+    .title-text {
+        
+        display: flex;
+        color: #FFF;
+        font-size: 1.8rem;
+        font-style: normal;
+        font-weight: 430;
+        line-height: 2.07rem;
+
+    }
+
+    .box-logo {
+
+        display: flex;
+        padding: 2.175rem 6.75rem;
+        justify-content: center;
+        align-items: center;
+        flex: 1 0 0;
+
+        .logo-row {
+           
+            display: flex;
+            padding-right:6.4rem;
+            width: 130.5rem;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            gap: 5.4rem;
+            flex-shrink: 0;
+            flex-wrap: wrap;
+            opacity: 0.9;
+            
+        }
+    }
+}

@@ -1,0 +1,132 @@
+.case-studies {
+
+    display: flex;
+    padding: 4.8rem 32.6rem 6rem 32.6rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.6rem;
+    background-color: #F8F8FA;
+
+    .title {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.8prem;
+
+        .text {
+
+            width: 60rem;
+            color: #192023;
+            text-align: center;
+            font-size: 6rem;
+            font-style: normal;
+            font-weight: 570;
+            line-height: 5.7rem;
+            letter-spacing: -0.24rem;
+        }
+
+    }
+
+    .cards {
+
+        display: flex;
+        width: 79.2rem;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 1.8rem;
+
+        .card {
+
+            display: flex;
+            height: 20.4rem;
+            padding: 1.2rem;
+            align-items: flex-start;
+            gap: 1.8rem;
+            align-self: stretch;
+            border-radius: 1.8rem;
+            backdrop-filter: blur(4.5rem);
+
+            .content {
+
+                display: flex;
+                padding: 1.2rem 0px;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0.9rem;
+                flex: 1 0 0;
+                align-self: stretch;
+
+                .tags {
+
+                    display: flex;
+                    align-items: flex-start;
+                    gap: 0.9rem;
+
+                    .tag {
+
+                        display: flex;
+                        padding: 0.6rem 0.9rem;
+                        align-items: flex-start;
+                        gap: 0.75rem;
+                        border-radius: 0.3rem;
+                        background: #F3F3F7;
+
+                        .text {
+
+                            color: #575A73;
+                            font-size: 1.2rem;
+                            font-style: normal;
+                            font-weight: 430;
+                            line-height: 1.44rem;
+                            letter-spacing: -0.024rem;
+                        }
+                    }
+
+                }
+
+                .box-content {
+
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    gap: 0.6rem;
+                    align-self: stretch;
+
+                    .text-first {
+
+                        align-self: stretch;
+                        color: #192023;
+                        font-size: 3rem;
+                        font-style: normal;
+                        font-weight: 570;
+                        line-height: 3.3rem;
+                        letter-spacing: -0.12rem;
+                    }
+
+                    .text-second {
+
+                        width: 37.95rem;
+                        height: 3.3rem;
+                        display: flex;
+                        flex-wrap: wrap;
+                        color: #192023;
+                        overflow: hidden;
+                        font-size: 1.2rem;
+                        font-style: normal;
+                        font-weight: 430;
+                        line-height: 1.5rem;
+
+
+                    }
+
+                }
+
+
+
+
+            }
+        }
+    }
+
+}

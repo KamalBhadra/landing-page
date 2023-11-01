@@ -1,0 +1,52 @@
+.feature-cards {
+
+    display: flex;
+    padding: 6rem 9rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items:flex-start;
+    gap: 3rem;
+    background-color: #F8F8FA;
+
+
+    .card-text {
+
+        display: flex;
+        flex-direction: column;
+        color: #192023;
+        font-size: 6rem;
+        font-style: normal;
+        font-weight: 570;
+        line-height: 6rem;
+        letter-spacing: -0.24rem;
+        padding-left: 12rem;
+
+        .second-line {
+
+            span {
+
+                color: rgba(25, 32, 35, 0.30);
+                font-size: 6rem;
+                font-style: normal;
+                font-weight: 570;
+                line-height: 6rem;
+                letter-spacing: -0.24rem;
+
+            }
+
+        }
+
+
+    }
+
+    .cards {
+
+        display: flex;
+        width:121rem;
+        padding-left: 11rem;
+        flex-wrap:wrap;
+
+    }
+
+}

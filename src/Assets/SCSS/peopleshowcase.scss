@@ -1,0 +1,50 @@
+.people-showcase {
+
+    display: flex;
+    flex-direction: row;
+    background-color: #F8F8FA;
+    padding-left: 9rem;
+    padding-right: 9rem;
+    gap: 23.5rem;
+
+
+    .left-section {
+
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.8rem;
+        padding-top: 11.7rem;
+
+
+        .big-text {
+
+            display: flex;
+            width: 63rem;
+            color: #192023;
+            font-size: 6rem;
+            font-style: normal;
+            font-weight: 570;
+            line-height: 6rem;
+            letter-spacing: -0.24rem;
+        }
+
+        .small-text {
+
+            width: 35rem;
+            color: #192023;
+            font-size: 1.35rem;
+            font-style: normal;
+            font-weight: 430;
+            line-height: 1.65rem;
+
+        }
+    }
+
+    .right-section {
+
+        padding-top: 6rem;
+    }
+
+
+}

@@ -1,0 +1,152 @@
+.getting-started {
+
+    display: flex;
+    padding: 12rem 22.5rem 9rem 18rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3.6rem;
+    background: #F8F8FA;
+
+    .title {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-self: stretch;
+
+        .title-text {
+
+            color: #192023;
+            text-align: right;
+            font-size: 6rem;
+            font-style: normal;
+            font-weight: 570;
+            line-height: 6rem;
+            letter-spacing: -0.24rem;
+        }
+
+        .selector {
+
+            display: flex;
+            padding: 0.3rem;
+            align-items: flex-start;
+            gap: 0.3rem;
+            border-radius: 5.325rem;
+            border: 0.075rem solid #FFF;
+            background: #ECECF0;
+            box-shadow: 0.15rem 0.15rem 0.45rem 0px rgba(0, 0, 0, 0.08) inset;
+            backdrop-filter: blur(4.5rem);
+
+            .option-btn-first {
+
+                display: flex;
+                padding: 0.9rem 1.5rem;
+                align-items: flex-start;
+                gap: 0.75rem;
+                border-radius: 3.225rem;
+                background: #FFF;
+                box-shadow: 0.15rem 0.15rem 0.6rem 0px rgba(0, 0, 0, 0.12);
+                color: #192023;
+                text-align: center;
+                font-size: 1.8rem;
+                font-style: normal;
+                font-weight: 430;
+                line-height: 2.2rem;
+                letter-spacing: -0.018rem;
+                border-style: none;
+            }
+
+            .option-btn-second {
+
+                @extend .option-btn-first;
+                background-color: transparent;
+
+            }
+
+        }
+
+    }
+
+    .cards {
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2.4rem;
+        align-self: stretch;
+
+        .card-first {
+
+            display: flex;
+            flex-wrap: wrap;
+            height:39rem; 
+            padding: 5.4rem 6rem;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 15rem;
+            align-self: stretch;
+            border-radius: 1.2rem;
+            border: 0.1125rem solid #FFF;
+            background: rgba(255, 255, 255, 0.45);
+            box-shadow: 1.65rem 1.5rem 4.8rem 0px rgba(30, 48, 111, 0.08);
+            backdrop-filter: blur(4.5rem);
+
+            .card-text {
+
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+
+                .card-text-first {
+
+                    width: 40rem;
+                    color: #192023;
+                    font-size: 5.6rem;
+                    font-style: normal;
+                    font-weight: 570;
+                    line-height: 5.16rem;
+                    letter-spacing: -0.168rem;
+
+                }
+
+                .card-text-second {
+
+                    width: 40rem;
+                    color: #192023;
+                    font-size: 1.9rem;
+                    font-style: normal;
+                    font-weight: 430;
+                    line-height: 2.4rem;
+                    opacity: 0.7;
+
+
+                }
+            }
+        }
+
+        .card-second {
+
+            @extend .card-first;
+        }
+
+        .card-third {
+
+            @extend .card-first;
+            gap:6.4rem;
+
+            .card-text {
+
+                .card-text-first {
+                    width: 49rem;
+                }
+
+                .card-text-second {
+
+                    width: 46rem;
+                }
+
+            }
+
+        }
+    }
+}

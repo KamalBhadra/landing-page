@@ -1,0 +1,150 @@
+.talent-sculpt {
+
+    display: flex;
+    background-color: #F8F8FA;
+    padding: 1.8rem 14rem 1.8rem 9rem;
+
+    .rectangle {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.8rrem;
+        padding-bottom: 8rem;
+        border-radius: 6rem;
+        background: linear-gradient(180deg, #122026 0%, #192023 100%), #192023;
+        box-shadow: 0px 4.5px 30px 1.5px #040606 inset;
+        backdrop-filter: blur(45px);
+        padding-left: 15rem;
+        padding-right: 15rem;
+
+
+        .sculpt-title {
+
+            display: flex;
+            padding-top: 9rem;
+            padding-bottom: 3.6rem;
+            color: #FFF;
+            text-align: right;
+            font-size: 6rem;
+            font-style: normal;
+            font-weight: 570;
+            line-height: 6rem;
+            letter-spacing: -2.4px;
+
+        }
+
+        .sculpt-content {
+
+            display: flex;
+            align-items: flex-start;
+            gap: 6rem;
+
+
+            .left-content {
+
+                display: flex;
+
+                img {
+
+                    width: 51rem;
+                    height: 37.8rem;
+                    position: relative;
+
+
+
+                }
+
+                #top-image {
+
+                    position: absolute;
+                    width: 15rem;
+                    height: 19rem;
+                    opacity: 1;
+                    padding: 0;
+                    margin: 0;
+                    top: 15rem;
+                    right: 100rem;
+                    opacity: 0.7;
+
+
+                }
+
+                #bottom-image {
+
+                    position: absolute;
+                    width: 18rem;
+                    height: 12rem;
+                    top: 52.5rem;
+                    right: 55rem;
+                    opacity: 0.7;
+
+                }
+
+            }
+
+            .right-content {
+
+                display: flex;
+
+
+                .card-content {
+
+                    display: flex;
+                    width: 40.2rem;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    gap: 0.6rem;
+
+                    .card-one {
+
+                        display: flex;
+                        padding: 2.4rem 3rem;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        gap: 0.9rem;
+                        align-items: stretch;
+                        border-radius: 1.2rem;
+                        border-style: none;
+                        background: rgba(255, 255, 255, 0.06);
+                        box-shadow: 1.65rem 1.5rem 4.8rem 0px rgba(30, 48, 111, 0.08);
+                        backdrop-filter: blur(4.5rem);
+
+                        #big-text {
+
+                            color: #FFF;
+                            font-size: 3.6rem;
+                            font-style: normal;
+                            font-weight: 570;
+                            line-height: 3.96rem;
+                            width: 28.8rem;
+                        }
+
+                        #small-text {
+
+                            color: #FFF;
+                            font-size: 1.4rem;
+                            font-style: normal;
+                            font-weight: 430;
+                            line-height: 1.65rem;
+                            opacity: 0.7;
+
+                        }
+                    }
+
+                    .card-two {
+
+                        @extend .card-one;
+                        background-color: transparent;
+
+                        #big-text {
+
+                            width: 100%;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}

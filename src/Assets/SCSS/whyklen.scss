@@ -1,0 +1,197 @@
+.why-klen {
+
+    display: flex;
+    padding: 6rem 24.7rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.6rem;
+    background: #F8F8FA;
+
+    .title {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.8rem;
+
+
+        .heading-text {
+
+            color: #192023;
+            text-align: right;
+            font-size: 6rem;
+            font-style: normal;
+            font-weight: 570;
+            line-height: 6rem;
+            letter-spacing: -0.24rem;
+        }
+
+        .description-text {
+
+            color: #192023;
+            text-align: center;
+            font-size: 1.35rem;
+            font-style: normal;
+            font-weight: 430;
+            line-height: 1.65rem;
+            opacity: 0.7;
+            width: 37.275rem;
+
+        }
+
+    }
+
+    .cards {
+
+        display: flex;
+        align-items: flex-start;
+        gap: 4.2rem;
+
+
+        .card-first {
+
+            display: flex;
+            padding: 3rem;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 2.4rem;
+            border-radius: 1.2rem;
+            backdrop-filter: blur(4.5rem);
+
+
+
+            .card-text {
+
+                color: #192023;
+                text-align: right;
+                font-size: 3.6rem;
+                font-style: normal;
+                font-weight: 570;
+                line-height: 3.96rem;
+                letter-spacing: -0.108rem;
+                opacity: 0.7;
+                width: 19.725rem;
+            }
+
+            .bars {
+
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 1.8rem;
+
+
+                .progress-bar {
+
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-end;
+                    gap: 0.9rem;
+
+                    .info {
+
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-end;
+                        gap: 0.6rem;
+
+                        .text-first {
+
+                            color: #192023;
+                            text-align: right;
+                            font-size: 2.4rem;
+                            font-style: normal;
+                            font-weight: 570;
+                            line-height: 2.64rem;
+                            letter-spacing: -0.072rem;
+                        }
+
+                        .text-second {
+
+                            color: #192023;
+                            text-align: right;
+                            font-size: 1.35rem;
+                            font-style: normal;
+                            font-weight: 430;
+                            line-height: 1.65rem;
+
+                        }
+
+                    }
+                }
+            }
+        }
+
+        .card-second {
+
+            display: flex;
+            padding: 3rem;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 2.4rem;
+            border-radius: 1.2rem;
+            border: 0.1125rem solid #FFF;
+            background: rgba(255, 255, 255, 0.45);
+            box-shadow: 1.65rem 1.5rem 4.8rem 0px rgba(30, 48, 111, 0.08);
+            backdrop-filter: blur(4.5rem);
+
+            .card-text {
+
+                opacity: 1;
+                color: #192023;
+                font-size: 3.6rem;
+                font-style: normal;
+                font-weight: 570;
+                line-height: 3.96rem;
+                letter-spacing: -0.108rem;
+                width: 19.725rem;
+            }
+
+            .bars {
+
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 1.8rem;
+
+                .progress-bar {
+
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    gap: 0.9rem;
+
+                    .info {
+
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        gap: 0.6rem;
+
+                        .text-first {
+
+                            color: #192023;
+                            font-size: 2.4rem;
+                            font-style: normal;
+                            font-weight: 570;
+                            line-height: 2.64rem;
+                            letter-spacing: -0.072rem;
+
+                        }
+
+                        .text-second {
+
+                            color: #192023;
+                            font-size: 1.35rem;
+                            font-style: normal;
+                            font-weight: 430;
+                            line-height: 1.65rem;
+
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}

@@ -1,0 +1,219 @@
+.hero {
+
+    display: flex;
+    padding: 0px 9rem;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+
+
+    .navbar {
+
+        display: flex;
+        width:100%;
+        padding: 3rem 9rem;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+
+
+        .navbar-logo {
+
+            display: flex;
+
+            img {
+
+                display: flex;
+                height: 1.8rem;
+                width: 6rem;
+
+            }
+        }
+
+        .navbar-link {
+
+            display: flex;
+            align-items: center;
+            gap: 2.4rem;
+
+            .text-link {
+
+                display: flex;
+                align-items: flex-start;
+                gap: 2.4rem;
+
+                ul {
+
+                    display: flex;
+                    align-items: center;
+                    gap: 1.5rem;
+                    list-style: none;
+
+
+                    li {
+
+                        display: flex;
+                        align-items: center;
+                        color: #1C3031;
+                        font-size: 1.35rem;
+                        font-style: normal;
+                        font-weight: 430;
+                        line-height: 1.35rem;
+                        gap: 0.15rem;
+
+                        svg {
+                            padding-top: 0.5rem;
+                        }
+
+
+                    }
+
+
+                }
+            }
+
+            .button-link {
+
+                display: flex;
+                align-items: flex-start;
+                align-content: space-around;
+                gap: 0.9rem;
+
+                .login-btn {
+
+                    display: flex;
+                    padding: 1.2rem 1.8rem;
+                    border-radius: 2.4rem;
+                    background: #D2EAEB;
+                    border-style: none;
+                    color: #192023;
+                    font-size: 1.35rem;
+                    font-style: normal;
+                    font-weight: 430;
+                    line-height: 1.3rem;
+
+
+                }
+
+                .request-access-btn {
+
+
+                    display: flex;
+                    @extend .login-btn;
+                    align-items: center;
+                    gap: 0.6rem;
+                    background: #192023;
+                    border-radius: 2rem;
+                    color: #FFF;
+                    font-weight: 430;
+                    border-style: none;
+
+
+                }
+            }
+
+        }
+
+    }
+
+    .hero-lockup {
+
+        display: flex;
+        justify-content: space-between;
+        background-color: #F8F8FA;
+        padding: 0rem 9rem 0rem 9rem;
+        width:100%;
+        
+
+        .left-section {
+
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 3rem;
+            width: 55.8rem;
+            padding-top: 8.75rem;
+
+            .text {
+
+                color: #192023;
+                font-size: 9rem;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 8.1rem;
+                letter-spacing: -0.36rem;
+
+                .grey {
+
+                    color: rgba(25, 32, 35, 0.30);
+
+
+                }
+
+
+            }
+
+            .content-area {
+
+                display: flex;
+                align-items: center;
+                gap: 2.4rem;
+
+                button {
+
+                    display: flex;
+                    width: 24rem;
+                    padding: 1.2rem 2.4rem;
+                    align-items: center;
+                    gap: 0.6rem;
+                    border-radius: 7.5rem;
+                    background: #1C3031;
+                    border-style: none;
+
+                    .btn-content {
+
+                        display: flex;
+                        align-items: center;
+                        gap: 0.6rem;
+
+                        .btn-text {
+
+                            display: flex;
+                            color: #FFF;
+                            font-size: 1.4rem;
+                            font-style: normal;
+                            font-weight: 570;
+                            line-height: 1.65rem;
+                        }
+
+                        .btn-arrow {
+
+                            display: flex;
+
+                        }
+
+                    }
+                }
+
+                .cta-text {
+
+                    display: flex;
+                    width: 23.4rem;
+                    color: #192023;
+                    font-size: 1.6rem;
+                    font-style: normal;
+                    font-weight: 430;
+                    line-height: 1.65rem;
+                }
+            }
+        }
+
+        .right-section {
+
+            display:flex;
+        }
+
+    }
+
+}
